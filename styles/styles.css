@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(173,134,232,.5), rgba(136,138,241,1));
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+    overflow: hidden;
+    padding: 7rem 0;
+}
+
+.wrapper {
+    width: 27rem;
+    height: 27.3rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to left, rgba(149,120,208,10), rgba(184,125,216,.5));
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    padding: .5rem 0;
+}
+
+/*HEADINGS*/
+.headings {
+    display: flex;
+    align-items: center;
+    padding: .5rem 2.5rem;
+}
+
+.headings__line {
+    width: 4px;
+    height: 3.4rem;
+    margin: -0.5rem 3.4rem;
+    background-color: white;
+}
+
+.photo {
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 3px;
+}
+
+.arrow {
+    margin-left: auto;
+}
+
+
+/*CENTER*/
+.center__div {
+    width: inherit;
+    height: 15.5rem;
+    background-color: #5f5280;
+    padding: 0 3rem;
+    margin: .5rem 0;
+}
+
+.center__div-downline {
+    background-color: #aca6be;
+    width: 4px;
+    height: 2rem;
+    margin: 0 .4rem;
+}
+
+.center__div-upline {
+    background-color: #aca6be;
+    width: 4px;
+    height: 3.4rem;
+    margin: 0 .4rem;
+}
+
+.center__div-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #d4d6e4;
+}
+
+.center__div-text:hover {
+    color: #fff;
+}
+
+
+.dots {
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.folder__line {
+    width: 4px;
+    height: 2.2rem;
+    margin: -0.5rem 3.4rem;
+    background-color: white;
+}
+
+#text {
+    margin-left: .5rem;
+}
